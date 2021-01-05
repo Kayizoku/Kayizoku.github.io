@@ -34,6 +34,16 @@ header {
   padding: 1em;
 }
 
+.member_list {
+  margin-top: 25px;
+  padding: 250px;
+  background-color: rgb(121, 92, 92);
+}
+
+.member {
+  background-color: red;
+
+}
 
 .footer {
   position: fixed;

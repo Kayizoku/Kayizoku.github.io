@@ -92,7 +92,8 @@ header {
 
 .column {
   float: left;
-  width: 400px;
+  min-width: 400px;
+  max-width: 600px;
   padding: 0 10px;
 }
 

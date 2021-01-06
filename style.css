@@ -20,7 +20,7 @@ body {
 
 ul {
   font-size: 2em;
-  
+
 }
 
 .nav-item {
@@ -58,6 +58,11 @@ ul {
   margin: auto;
   width: 25%;
 }
+
+table{
+  width: 100%;
+}
+
 
 header {
   height: 90%;

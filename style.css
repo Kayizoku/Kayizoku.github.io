@@ -27,9 +27,26 @@ ul {
   letter-spacing: 0em;
 }
 
+.member-container {
+  width: 75%;
+}
+
 .card{
   -webkit-transition: 0.5s;
           transition: 0.5s;
+}
+
+.card-avatar {
+  overflow: hidden;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  height: 18rem;
+  filter: grayscale(1);
+  transition: .2s ease-in-out;
+  border-radius: 50%;
+
 }
 
 .card:hover{

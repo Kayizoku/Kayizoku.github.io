@@ -8,6 +8,23 @@ body {
 
 }
 
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.card{
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+
+.card:hover{
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 header {
   height: 90%;
   padding: 180px;
@@ -34,6 +51,16 @@ header {
   padding: 1em;
 }
 
+.member_list {
+  margin-top: 25px;
+  padding: 250px;
+  background-color: rgb(121, 92, 92);
+}
+
+.member {
+  background-color: red;
+
+}
 
 .footer {
   position: fixed;

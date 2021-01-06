@@ -91,6 +91,11 @@ header {
   padding: 1em;
 }
 
+.main_container {
+  height: 100%;
+  width: 100%;
+}
+
 .member_list {
   margin-top: 25px;
   padding: 250px;

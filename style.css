@@ -26,6 +26,16 @@ ul {
   letter-spacing: 0em;
 }
 
+.card{
+  -webkit-transition: 0.5s;
+          transition: 0.5s;
+}
+
+.card:hover{
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 header {
   height: 90%;
   padding: 180px;

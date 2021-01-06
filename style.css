@@ -26,6 +26,11 @@ body {
           transform: scale(1.1);
 }
 
+.positionNamecards{
+  margin: auto;
+  width: 25%;
+}
+
 header {
   height: 90%;
   padding: 180px;

@@ -40,7 +40,6 @@ ul {
 
 .card-avatar {
   overflow: auto;
-  display: block;
   width: 230px;
   height: 200px;
   transition: .2s ease-in-out;
@@ -117,9 +116,9 @@ header {
 
 .column {
   float: left;
-  min-width: 300px;
-  max-width: 400px;
+  width: 350px;
   padding: 0 10px;
+  justify-content: center;
 }
 
 .card {

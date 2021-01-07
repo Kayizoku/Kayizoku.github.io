@@ -9,13 +9,6 @@ body {
   color: white;
 }
 
-.document {
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
-}
-
 .navbar {
   overflow: hidden;
   position: fixed;
@@ -125,4 +118,11 @@ header {
   display: flex;
   justify-content: center;
     margin: 5%;
+}
+
+.document {
+  display: flex;
+  justify-content:  space-evenly;
+  
+  transition: transform .2s ease-in;
 }

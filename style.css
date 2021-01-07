@@ -63,7 +63,7 @@ ul {
 
 header {
   height: 100%;
-  padding: 180px;
+  padding-top: 180px;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
@@ -83,11 +83,14 @@ header {
       font-family: 'Nunito', sans-serif;
       font-weight: bold;
   }
+  .header{
+    padding-top: 180px;
+  }
 }
 
 @media screen and (max-width: 665px) {
     .head_banner {
-      color: red;
+      padding: 0;
       text-align: left;
       font-family: 'Nunito', sans-serif;
       font-weight: bold;

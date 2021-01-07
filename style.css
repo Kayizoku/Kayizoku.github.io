@@ -105,7 +105,6 @@ header {
   padding: 16px;
   text-align: center;
   margin: 16px;
-  background-color: #323232;
   display: flex;
   width: 90%;
   flex-wrap: wrap;
@@ -140,3 +139,7 @@ header {
 .document-container {
   margin: auto;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9d846c69c2795d8d89398d727ec7f7f27cc9de10

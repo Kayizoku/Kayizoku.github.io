@@ -77,7 +77,7 @@ header {
 }
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 666px) {
     .head_banner {
       text-align: left;
       font-family: 'Nunito', sans-serif;
@@ -85,16 +85,21 @@ header {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 665px) {
     .head_banner {
       color: red;
       text-align: left;
       font-family: 'Nunito', sans-serif;
       font-weight: bold;
   }
-  .head_banner > h1, h2{
+  .head_banner > h2{
     font-size: 8px;
   }
+
+  .head_banner > h1{
+    font-size: 12px;
+  }
+
 }
 
 .displayWrapper{

@@ -40,7 +40,6 @@ ul {
 
 .card-avatar {
   overflow: auto;
-  display: block;
   width: 230px;
   height: 200px;
   transition: .2s ease-in-out;
@@ -86,12 +85,22 @@ header {
 }
 
 @media screen and (max-width: 665px) {
+<<<<<<< HEAD
+=======
+  .header{
+    padding-top: 90px;
+  }
+  .head_container{
+    padding: 0;
+  }
+>>>>>>> 7824d645410b665f949e2be51272d2b17a4d17c7
     .head_banner {
       color: red;
       text-align: left;
       font-family: 'Nunito', sans-serif;
       font-weight: bold;
   }
+<<<<<<< HEAD
 
   .head_banner > h2{
     font-size: 8px;
@@ -99,8 +108,14 @@ header {
 
   .head_banner > h1{
     font-size: 12px;
+=======
+  .head_banner > h1{
+    font-size: 32px;
   }
-
+  .head_banner > h2{
+    font-size: 20px;
+>>>>>>> 7824d645410b665f949e2be51272d2b17a4d17c7
+  }
 }
 
 .displayWrapper{
@@ -115,9 +130,9 @@ header {
 
 .column {
   float: left;
-  min-width: 300px;
-  max-width: 400px;
+  width: 350px;
   padding: 0 10px;
+  justify-content: center;
 }
 
 .card {

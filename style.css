@@ -139,7 +139,7 @@ header {
 .document-container {
   margin: auto;
 }
-<<<<<<< HEAD
-=======
+*:focus {
+  outline: 1px solid deeppink;
+}
 
->>>>>>> 9d846c69c2795d8d89398d727ec7f7f27cc9de10

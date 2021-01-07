@@ -74,10 +74,6 @@ header {
 
 }
 
-.head_container{
-  padding-bottom: 10%;
-}
-
 
 @media screen and (min-width: 666px) {
     .head_banner {

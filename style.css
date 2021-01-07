@@ -74,12 +74,7 @@ header {
 
 }
 
-.head_container{
-  padding-bottom: 10%;
-}
-
-
-@media screen and (min-width: 666px) {
+@media screen and (min-width: 801px) {
     .head_banner {
       text-align: left;
       font-family: 'Nunito', sans-serif;
@@ -88,9 +83,21 @@ header {
   .header{
     padding-top: 180px;
   }
+
+  .head_banner > h1{
+    font-size: 4.0rem;
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+  .head_banner > h2{
+    font-size: 2.5rem;
+    font-style: italic;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
 }
 
-@media screen and (max-width: 665px) {
+@media screen and (max-width: 800px) {
   .header{
     padding-top: 90px;
   }
@@ -104,10 +111,15 @@ header {
       font-weight: bold;
   }
   .head_banner > h1{
-    font-size: 32px;
+    font-size: 3.0rem;
+    padding-right: 5%;
+    padding-left: 5%;
   }
   .head_banner > h2{
-    font-size: 20px;
+    font-size: 1.5rem;
+    font-style: italic;
+    padding-right: 5%;
+    padding-left: 5%;
   }
 }
 

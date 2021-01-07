@@ -80,7 +80,6 @@ header {
 @media screen and (min-width: 1200px) {
     .head_banner {
       text-align: left;
-      font-size: 40px;
       font-family: 'Nunito', sans-serif;
       font-weight: bold;
   }
@@ -90,9 +89,11 @@ header {
     .head_banner {
       color: red;
       text-align: left;
-      font-size: 20px;
       font-family: 'Nunito', sans-serif;
       font-weight: bold;
+  }
+  .head_banner > h1, h2{
+    font-size: 8px;
   }
 }
 

@@ -63,7 +63,7 @@ ul {
 
 header {
   height: 100%;
-  padding: 180px;
+  padding-top: 180px;
   display: flex;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,23 +77,35 @@ header {
 }
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 666px) {
     .head_banner {
       text-align: left;
       font-family: 'Nunito', sans-serif;
       font-weight: bold;
+  }
+  .header{
+    padding-top: 180px;
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 665px) {
+  .header{
+    padding-top: 90px;
+  }
+  .head_container{
+    padding: 0;
+  }
     .head_banner {
-      color: red;
+      padding: 0;
       text-align: left;
       font-family: 'Nunito', sans-serif;
       font-weight: bold;
   }
-  .head_banner > h1, h2{
-    font-size: 8px;
+  .head_banner > h1{
+    font-size: 32px;
+  }
+  .head_banner > h2{
+    font-size: 20px;
   }
 }
 

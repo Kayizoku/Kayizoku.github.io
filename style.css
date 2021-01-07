@@ -80,6 +80,7 @@ header {
   text-align: left;
   font-size: 20vw;
   font-family: 'Nunito', sans-serif;
+  font-weight: bold;
 }
 
 .displayWrapper{
@@ -138,9 +139,4 @@ header {
 
 .document-container {
   margin: auto;
-}
-
-<<<<<<< HEAD
-.card-column {
-
 }

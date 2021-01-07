@@ -91,6 +91,7 @@ header {
       text-align: left;
       font-family: 'Nunito', sans-serif;
       font-weight: bold;
+      padding: 0;
   }
   .head_banner > h2{
     font-size: 8px;

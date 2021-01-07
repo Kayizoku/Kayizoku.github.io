@@ -139,7 +139,3 @@ header {
 .document-container {
   margin: auto;
 }
-*:focus {
-  outline: 1px solid deeppink;
-}
-

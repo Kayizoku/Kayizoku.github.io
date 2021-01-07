@@ -123,6 +123,9 @@ header {
 .document {
   display: flex;
   justify-content:  space-evenly;
-
   transition: transform .2s ease-in;
+}
+
+.document-container {
+  margin: auto;
 }

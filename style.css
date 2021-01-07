@@ -66,12 +66,12 @@ header {
 }
 
 .head_container{
-  position: absolute;
-  left: 7%;
+  padding-bottom: 30%;
 }
 
 .head_banner {
   text-align: left;
+  font-size: 20vw;
 }
 
 .displayWrapper{

@@ -21,7 +21,6 @@ h1, h2 {
   z-index: 1;
   border-color: #323232;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-
 }
 
 ul {
@@ -87,17 +86,25 @@ header {
   }
 
   .head_banner > h1{
+    font-family: Georgia;
     font-size: 4.0rem;
     padding-right: 10%;
     padding-left: 10%;
   }
   .head_banner > h2{
     font-size: 2.5rem;
-    font-style: italic;
     padding-right: 5%;
     padding-left: 5%;
   }
+<<<<<<< HEAD
 >>>>>>> acac8e513022e1585f63add558d306bbb10a1870
+=======
+
+  #sub-header {
+    font-style: italic;
+    font-size: 3.0rem;
+  }
+>>>>>>> 28092c5ae4eee9016385cde865cda5f7df6105b4
 }
 
 @media screen and (max-width: 800px) {

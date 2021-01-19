@@ -80,6 +80,8 @@ header {
       font-family: 'Nunito', sans-serif;
       font-weight: bold;
   }
+<<<<<<< HEAD
+=======
   .header{
     padding-top: 180px;
   }
@@ -95,11 +97,15 @@ header {
     padding-right: 5%;
     padding-left: 5%;
   }
+<<<<<<< HEAD
+>>>>>>> acac8e513022e1585f63add558d306bbb10a1870
+=======
 
   #sub-header {
     font-style: italic;
     font-size: 3.0rem;
   }
+>>>>>>> 28092c5ae4eee9016385cde865cda5f7df6105b4
 }
 
 @media screen and (max-width: 665px) {
